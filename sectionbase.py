@@ -7,7 +7,7 @@ st.title("🧱 Przegląd profili stalowych")
 st.markdown("Wybierz typ i nazwę profilu, aby zobaczyć jego parametry geometryczne.")
 
 # Wczytywanie danych z pliku CSV
-df = pd.read_csv("/Users/marcinkarczmarczyk/Downloads/Lesson5/profile_stalowe.csv")
+df = pd.read_csv("profile_stalowe.csv")
 
 # Wybór typu profilu
 typ_wybrany = st.radio("Wybierz typ profilu:", df["Typ"].unique())
